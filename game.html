@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css"/>    
+    <link rel="stylesheet" href="https://vjs.zencdn.net/4.12/video-js.css">
+    <link rel="stylesheet" href="style.css">    
+    <title>Max Games</title>
+</head>
+<body>
+    <div class="wraper">
+
+        <header>
+            <div class="container">
+                <div class="header_row">
+                    <a href="./index.html" class="logo" >
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="./index.html#most_played" class="nav_link">Our Top 3 Games</a></li>
+                        <li class="nav-item"><a href="./index.html#all_games" class="nav_link">See All</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero game_hero" style="background-image: url(images/hero-bg2.png);">
+            <div class="container">
+                <div class="info_game">
+                    <img src="images/game_name_image.svg" alt="">                                       
+                    <div class="actions">
+                        <a href="#" class="button">Play Now</a>                   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main>
+
+            <section class="game_slider">
+                <div class="container">                                        
+                    <div class="swiper mySwiper3">                        
+                        <div class="swiper-wrapper" id="lightgallery">
+                            <div style="display:none;" id="video1">
+                                <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none" autoplay playsinline >
+                                    <source src="./videos/video1.mp4" type="video/mp4">                                         
+                                </video>
+                            </div>                       
+                            <li class="swiper-slide auto_play" data-poster="images/game_slider1.jpg" data-html="#video1" type="video/mp4" >                                
+                                <button class="video_item slide_item">
+                                    <div class="video">
+                                    <img class="" src="images/game_slider1.jpg">
+                                    <div data-qa-entity="" class="video_content" style="width: 100%; height: 100%;">
+                                        <!-- video src empty file:///D:/your_videos/video.mp4 -->
+                                        <video class="wefgergf" src="./videos/video1.mp4" preload="auto" autoplay="" loop="" controlslist="nodownload" disablepictureinpicture="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;"></video>
+                                    </div>
+                                    <div class="play_button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" version="1.1" viewBox="0 0 60 60">
+                                            <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="0">
+                                              <circle cx="30" cy="30" r="30" fill="#191B1F" fill-opacity=".4"></circle>
+                                              <path fill="#FFF" d="M40.2111 30.8944l-16.7639 8.382c-.494.247-1.0946.0468-1.3416-.4472A1 1 0 0122 38.382V21.618c0-.5523.4477-1 1-1a1 1 0 01.4472.1056l16.764 8.382a1 1 0 010 1.7889z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    </div>
+                                </button>
+                            </li>
+                            <a href="images/game_slider2.png" class="swiper-slide">
+                                <div class="slide_item">
+                                    <img src="images/game_slider2.png" alt="">
+                                </div>
+                            </a>
+                            <a href="images/game_slider3.png" class="swiper-slide">
+                                <div class="slide_item"><img src="images/game_slider3.png" alt=""></div>
+                            </a>
+                            <a href="images/game_slider3.png" class="swiper-slide">
+                                <div class="slide_item"><img src="images/game_slider3.png" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="swiper-button-next next-3"></div>
+                        <div class="swiper-button-prev prev-3"></div>
+                    </div>                    
+                </div>
+            </section>
+
+            <section class="article">
+                <div class="container">
+                    <div class="article_left">
+                        <h2 class="game_name">Raid: Shadow Legends – A gritty experience</h2>
+                        <p class="description"><span>Fantasy MMORPG</span> – The world of Teleria doesn’t seem to have a bright future ahead. Besieged by dark forces the world and its inhabitants are living under the constant fear for their life and only a few brave souls can muster the courage to fight back. You are one of them, you are the chosen one in Raid: Shadow Legends, a free to play roleplaying game blockbuster.</p>
+                        <div class="description_title">Game concept</div>
+                        <p class="description"><span>Raid: Shadow Legends</span> is a classic role playing game for your browser. Set in the world of Teleria, which is besieged by dark hordes, you are one of the few remaining heroes that are willing to take the fight to the monsters that are threatening your home. Supported by the realms guardian spririt, you embark on an adventure of epic proportions. Meeting new heroes along the way that are willing to help you in your cause, you eventually form a party of competent warriors and slowly begin reclaiming a world that seemed to be doomed already.</p>
+                        <div class="play_free">
+                            <img class="play_bg" src="images/play_free_bg.png" alt="">
+                            <div class="blur">
+                                <img class="game_logo" src="images/image_logo.svg" alt="">
+                                <div class="actions">
+                                    <a href="#" class="button">Play For Free</a>                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description_title">Choose your hero</div>
+                        <p class="description">At the beginning of <span>Raid: Shadow</span> Legends you are following a group of seemingly competent heroes in one of their raids against the dark hordes. While initially everything seems to go smoothly and our heroes are trying their best to overshadow each other with flashy attacks, a towering dragon emerges before us. Within seconds our party has been reduced to cinders and we’re greeted by the guardian spirit of Teleria. She can only resurrect one of these brave souls and so we have to make a decision. In our play through we chose the Templar, a melee based character that offers a well-rounded mix of strong melee attacks and a sturdy defense. Other options would have been for example an orc barbarian or a nimble high elf archer – all of which looked pretty damn impressive for a free to play titles.</p>
+                        <div class="description_title">Outstanding visuals and sound</div>
+                        <p class="description">Outstanding is most likely the correct word to describe the overall visual appearance of <span>Raid: Shadow Legends</span>. The graphics are simply marvelous, especially for a free to play game that is also playable on your phone. The attacks, the animations and even the professional voice over really left us surprised. Raid: Shadow Legends is a game that definitely had some production value and it shows every second. No matter if you’re in combat, in your base overview or in one of the many dialogues throughout your campaign to reconquer Telaria, Raid: Shadow Legends is a real piece of eye candy.</p>
+                        <div class="description_title">Form a new band of heroes</div>
+                        <p class="description">Since your friends have just been roasted by that dragon, you are beginning your adventure on your own. Soon after though you will meet your first new allies that usually can be acquired in the form of rare crystals. These crystals basically hold a sort of essence within them that can be unlock by the spirit guardian of Telaria. Depending on the rarity of the crystal you will be able to recruit powerful allies into your service. Each of these allies comes with a unique set of skills that can not only be developed but also needs to be adjusted in accordance with the type of foe you are fighting. In this regard <span>Raid: Shadow Legends</span> provides a compelling argument for different hero setups that you can run in rotations or depending on your task at hand.</p>
+                        <div class="download_component">
+                            <div class="component_left">
+                                <img src="images/raid1.png" alt="">
+                                <div class="game_about">
+                                    <h2 class="game_name">Raid: Shadow Legends</h2>
+                                    <p class="game_type">Collect 400+ Champions & Fight For Glory</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="button">Download</a>                   
+                            </div>
+                        </div>
+                        <div class="description_title">The Bottom Line</div>
+                        <p class="description"><span>Raid: Shadow Legends</span> is a game that is definitely among the top 5% if not even higher, on the good looking free to play titles. Character models, backgrounds and animations are showing the real production value of this game that is furthermore one of the very few titles with a proper synchronization and voice for its characters. Aside from that <span>Raid: Shadow Legends</span> is a pretty solid role playing game that relies heavily on some of the most established features of the genre. In this regard this game is definitely worth a try for any die-hard roleplaying game fan or anyone that aspires to become one.</p>
+                    </div>
+                    <div class="article_right">
+                        <ul class="scores">
+                            <li><div class="scores_name">Graphics</div><div class="Stars_" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div></li>
+                            <li><div class="scores_name">Fun Factor</div><div class="Stars_" style="--rating: 4;" aria-label="Rating of this product is 4 out of 5."></div></li>
+                            <li><div class="scores_name">Handling</div><div class="Stars_" style="--rating: 5;" aria-label="Rating of this product is 5 out of 5."></div></li>
+                            <li><div class="scores_name">Community</div><div class="Stars_" style="--rating: 4.7;" aria-label="Rating of this product is 4.7 out of 5."></div></li>
+                            <li><div class="scores_name">Overall Scores</div><div class="Stars_" style="--rating: 4.7;" aria-label="Rating of this product is 4.7 out of 5."></div></li>
+                        </ul>
+                        <div class="types">
+                            <span>MMORPG</span>
+                            <span>Fantasy Game</span>
+                            <span>Download Game</span>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="related">
+                <div class="container">                    
+                    <div class="swiper mySwiper4">                        
+                        <div class="section_top">
+                            <div class="description_title">Related Games</div>
+                            <div class="swiper_nav">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-wrapper">                            
+                            <div class="swiper-slide">
+                                <div class="slide_item">
+                                    <div class="slide_image">
+                                        <img src="images/related1.png" alt="">
+                                    </div>
+                                    <div class="game_name">Mech Arena</div>
+                                    <p class="game_desc">Real-Time 5v5 Mech Combat</p>
+                                    <div class="actions">
+                                        <a href="#" class="button">Learn More</a>                   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_item">
+                                    <div class="slide_image">
+                                        <img src="images/related1.png" alt="">
+                                    </div>
+                                    <div class="game_name">Mech Arena</div>
+                                    <p class="game_desc">Real-Time 5v5 Mech Combat</p>
+                                    <div class="actions">
+                                        <a href="#" class="button">Learn More</a>                   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_item">
+                                    <div class="slide_image">
+                                        <img src="images/related1.png" alt="">
+                                    </div>
+                                    <div class="game_name">Mech Arena</div>
+                                    <p class="game_desc">Real-Time 5v5 Mech Combat</p>
+                                    <div class="actions">
+                                        <a href="#" class="button">Learn More</a>                   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide_item">
+                                    <div class="slide_image">
+                                        <img src="images/related1.png" alt="">
+                                    </div>
+                                    <div class="game_name">Mech Arena</div>
+                                    <p class="game_desc">Real-Time 5v5 Mech Combat</p>
+                                    <div class="actions">
+                                        <a href="#" class="button">Learn More</a>                   
+                                    </div>
+                                </div>
+                            </div>                                                        
+                            <div class="swiper-slide">
+                                <div class="slide_item">
+                                    <div class="slide_image">
+                                        <img src="images/related1.png" alt="">
+                                    </div>
+                                    <div class="game_name">Mech Arena</div>
+                                    <p class="game_desc">Real-Time 5v5 Mech Combat</p>
+                                    <div class="actions">
+                                        <a href="#" class="button">Learn More</a>                   
+                                    </div>
+                                </div>
+                            </div>                                                        
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer_row">
+                    <div class="footer_left">
+                        <a href="./index.html" class="logo" >
+                            <img src="images/logo.svg" alt="">
+                        </a>
+                        <p class="during">© 2009-2023</p>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="./terms_of_use.html" class="nav_link">Terms of Use</a></li>
+                        <li class="nav-item"><a href="#" class="nav_link">Privacy and Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="lightgallery.js"></script>    
+    <script src="https://cdn.jsdelivr.net/gh/sachinchoolur/lg-video.js@master/dist/lg-video.js"></script>     
+    <script src="https://vjs.zencdn.net/4.12/video.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
